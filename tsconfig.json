@@ -4,7 +4,7 @@
     "allowJs": true,
     "moduleResolution": "node",
     "outDir": "dist",
-    "declaration": false,
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "alwaysStrict": true,
