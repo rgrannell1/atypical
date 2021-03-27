@@ -28,9 +28,8 @@ stringHypotheses.lessThanEqual = new Hypothesis({ description: 'strings are less
 const stringTheory = new Theory({ description: 'all string tests pass' })
   .expectAll(stringHypotheses)
 
-stringTheory
-  .test({ seconds: 10 })
+const main = async () => {
+  await stringTheory.test({ seconds: 10 })
+}
 
-  .catch(res => {
-    throw err
-  })
+main()
