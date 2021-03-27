@@ -13,7 +13,7 @@ export class Hypothesis {
   predicates: PredicateType[] = []
   caseGenerator: () => Generator<any[]> | AsyncGenerator<any[]>
 
-  constructor (opts: HypothesisOpts) {
+  constructor(opts: HypothesisOpts) {
     this.description = opts.description
     return this
   }
@@ -98,7 +98,7 @@ export class Theory {
           const expectationResult = await predicate(...value)
 
           if (expectationResult === false) {
-            console.error(`- hypothesis "${hypothesis.description}" ${chalk.red('FAILED')}  predicate #${idx}`)
+            console.error(`- hypothesis "${hypothesis.description}" ${chalk.red('FAILED')} predicate #${idx}`)
             console.error(`theory "${this.description}" ${chalk.red('FAILED')}`)
 
             return {
@@ -110,7 +110,7 @@ export class Theory {
 
       }
 
-      console.error(`- hypothesis "${hypothesis.description}" ${chalk.green('HELD')} ${caseCount.toLocaleString()} test-cases`)
+      console.error(`- hypothesis "${hypothesis.description}" ${chalk.green('HELD')} for ${caseCount.toLocaleString()} test-cases`)
     }
 
     console.error(`theory "${this.description}" ${chalk.green('HELD')}`)
