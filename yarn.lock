@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@rgrannell/revexp@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@rgrannell/revexp/-/revexp-1.0.0.tgz#1ff350da8be52f83165b47b319218dfc04a36aca"
-  integrity sha512-tMHft0XMtmtvSv2C40QbCmsEbofQe2odIbnDQkQ4HOLYMHCnS3EKf2GR7OpqE/aIzWgcT9/eGulAwPWcf7MFmQ==
+"@rgrannell/revexp@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rgrannell/revexp/-/revexp-1.1.0.tgz#dac14cc0d993766e8f048b9eeda98e23c62472c9"
+  integrity sha512-lSLwOTmy5xyJTGsYtEUSkj+oP20XtkI1CAEC7PcMAFsMC5TtFv/ZSbtlp9g6Arf4TmbsFFydcl/1gEFbl6pWYA==
   dependencies:
     "@types/diff" "^4.0.2"
     "@types/tap" "^14.10.1"
